@@ -1,8 +1,14 @@
 {
 	"name": "google-that-for-me",
 	"displayName": "Google That For Me",
-	"description": "A VSCode extension that searches a text selection on Google for you",
-	"version": "0.0.1",
+  "description": "A VSCode extension that searches a text selection on Google for you",
+  "version": "0.0.1",
+  "publisher": "",
+  "author": {
+    "name": "Matheus Calegaro",
+    "email": "hello@matheus.me",
+    "url": "https://matheus.me"
+  },
 	"engines": {
 		"vscode": "^1.38.0"
 	},
