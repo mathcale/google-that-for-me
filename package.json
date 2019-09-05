@@ -3,7 +3,8 @@
 	"displayName": "Google That For Me",
   "description": "A VSCode extension that searches a text selection on Google for you",
   "version": "0.0.1",
-  "publisher": "",
+  "publisher": "mathcale",
+  "license": "MIT",
   "author": {
     "name": "Matheus Calegaro",
     "email": "hello@matheus.me",
@@ -37,7 +38,11 @@
 		"watch": "tsc -watch -p ./",
 		"pretest": "yarn run compile",
 		"test": "node ./out/test/runTest.js"
-	},
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mathcale/google-that-for-me"
+  },
 	"devDependencies": {
 		"@types/glob": "^7.1.1",
 		"@types/mocha": "^5.2.6",
